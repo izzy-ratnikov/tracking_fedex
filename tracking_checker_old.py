@@ -235,7 +235,7 @@ def main(start_number, total_numbers, thread_count):
 
 
 if __name__ == "__main__":
-    with open('config.json', 'r') as config_file:
+    with open('src/config/config.json', 'r') as config_file:
         config = json.load(config_file)
 
     start_number = config.get("start_number", 770495122048)
